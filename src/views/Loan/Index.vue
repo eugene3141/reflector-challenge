@@ -129,7 +129,7 @@ function lend() {
         },
         contractFail: processContractError,
         restoredPreamble: () => {
-            land();
+            lend();
         },
         fail: () => {
             toast('An error has occurred, please try again later', {
