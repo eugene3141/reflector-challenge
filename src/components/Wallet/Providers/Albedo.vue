@@ -49,7 +49,7 @@ defineExpose({
         <button class="rounded-md bg-blue-500 hover:bg-blue-600 font-medium text-sm px-2 py-2 w-full" @click="login">Connect</button>
 
         <div class="text-sm mt-6">
-            lbedo allows other Stellar apps to request transaction signing or identity verification without ever exposing your secret key.
+            Albedo allows other Stellar apps to request transaction signing or identity verification without ever exposing your secret key.
         </div>
         <div class="mt-6"><a href="https://albedo.link/" target="new-wallet" class="text-blue-500">Visit The Website</a></div>
     </div>
