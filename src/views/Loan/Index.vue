@@ -297,7 +297,7 @@ function processContractError(contractId, errorCode) {
         }
     }
 
-    if(contractId == loan.loan_asset) {
+    if(contractId == loan.value.loan_asset) {
         if(errorCode == 10 || errorCode == 13) {
             toast('Insufficient balance (Loan Asset)', {
                 type: "error"
@@ -307,7 +307,7 @@ function processContractError(contractId, errorCode) {
         }
     }
 
-    if(contractId == loan.collateral.asset_contract) {
+    if(contractId == loan.value.collateral.asset_contract) {
         if(errorCode == 10 || errorCode == 13) {
             toast('Insufficient balance (Collateral Asset)', {
                 type: "error"
